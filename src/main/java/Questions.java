@@ -3,29 +3,38 @@
  * Note: The exercise expects you to have read the "Entities of Java" topic in the curriculum.
  */
 public class Questions {
-    int question1(){
+    static int question1(){
         /* 
          * Replace the 0 in the return statement with the answer you believe to be true for the question below
          * 
          * How many variables are in the class "Vehicle"?
          */
-        return 1;
+        return 3;
     }
 
-    int question2(){
+    
+    static int question2(){
         /* 
          * Replace the 0 in the return statement with the answer you believe to be true for the question below
          * 
          * What line number represents the end of the "accelerate" method? 
          */
-        return 13;
+        return 14;
     }
 
-    String question3(){
+    static String question3(){
         /* 
          * What datatype is expected to be returned in the "honk" method?
          */
-        return "boolean";
+        return "String";
     }
     
+
+
+
+public static void main(String[] args) {
+    Questions.question1();
+    Questions.question2();
+    Questions.question3();
+    }
 }
